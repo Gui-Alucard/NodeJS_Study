@@ -1,0 +1,15 @@
+{
+  "name": "dog-names",
+  "version": "1.0.0",
+  "description": "Teste de npm init e install",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: Sem testes especificados\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "Guilherme S. Olivera",
+  "license": "ISC",
+  "dependencies": {
+    "dog-names": "^2.0.0"
+  }
+}

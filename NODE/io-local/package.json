@@ -1,0 +1,21 @@
+{
+  "name": "io-local",
+  "version": "1.0.0",
+  "description": "",
+  "main": "readFileSync.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sync": "node readFileSync.js",
+    "async": "node readFile.js",
+    "promise": "node readPromise.js",
+    "write": "node writeFile.js",
+    "new": "node createNewFile.js",
+    "byname": "node readFileByName.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  }
+}
